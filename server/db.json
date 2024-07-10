@@ -1,0 +1,36 @@
+[
+  {
+    "name": "abd",
+    "email": "vignesh12a240@gmail.com",
+    "mobile_no": "+918754582761",
+    "items": [
+      {
+        "name": "Xiomi 5G",
+        "quantity": 1
+      }
+    ],
+    "address": {
+      "line1": "abcd , abcd",
+      "line2": "",
+      "pincode": "602024"
+    },
+    "total": 15128.84
+  },
+  {
+    "name": "vignesh",
+    "email": "vignesh12a240@gmail.com",
+    "mobile_no": "+918754582761",
+    "items": [
+      {
+        "name": "Xiomi 5G",
+        "quantity": 1
+      }
+    ],
+    "address": {
+      "line1": "No 4, ABC STreet , XYZ",
+      "line2": "ABCD NAGAR , Chennai",
+      "pincode": "600001"
+    },
+    "total": 15153
+  }
+]
