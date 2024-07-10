@@ -1,0 +1,434 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+}
+.top div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn{
+  background-color: rgb(23, 23, 84);
+  color: white;
+  outline: none;
+  border:none;
+}
+/* Cart container */
+.cart {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.cart h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Checkout button */
+.check {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: rgb(23, 23, 84);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.check:hover {
+  background-color:rgb(23, 23, 84);
+}
+
+.btn{
+  font-size: 25px;
+  width: 40px;
+  cursor: pointer;
+}
+/* Container styles */
+.address-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.payPage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styles */
+.payPage h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payPage h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.payPage h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Table styles */
+.tbl {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.tbl th, .tbl td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Input and button styles */
+.payPage input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+.statusTracker {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.statusStep {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+}
+.statusStep.active {
+  background-color: rgb(23, 23, 84);
+  color: white;
+}
+.statusStep:last-child {
+  margin-right: 0;
+}
+
+.tbl th:nth-child(5),
+    .tbl td:nth-child(5) {
+      width: 150px; /* Adjust the width as needed */
+    }
+.payPage button {
+  padding: 12px 20px;
+  background-color: rgb(23, 23, 84);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.payPage button:hover {
+  background-color: #0056b3;
+}
+.button1{
+  margin-right: 20px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .payPage {
+    padding: 15px;
+  }
+
+  .payPage h1 {
+    font-size: 20px;
+  }
+
+  .payPage h3 {
+    font-size: 16px;
+  }
+
+  .payPage h4 {
+    font-size: 14px;
+  }
+}
+/* Heading styles */
+.address-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form label styles */
+.address-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Input field styles */
+/* Input field styles */
+
+.address-container input[type="text"],
+.address-container input[type="number"],
+.address-container input[type="email"],
+.address-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.in input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+
+.in {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: -8px;
+}
+
+.in button {
+  padding: 5px;
+  margin-left: 10px; /* Add margin to separate the button from the input */
+}
+
+.tbl{
+  min-width:400px;
+}
+.tbl td{
+  font-size: 20px;
+  width: 100px;
+}
+.tbl th{
+font-size: 20px;
+
+width: 100px;
+}
+/* Submit button styles */
+.address-container button[type="submit"] {
+  background-color: rgb(23, 23, 84);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.policy{
+  display: flex;
+  justify-content: space-around;
+}
+
+.address-container button[type="submit"]:hover {
+  background-color: rgb(23, 23, 84);
+}
+
+/* Container styles */
+.delivery-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Heading styles */
+.delivery-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form label styles */
+.delivery-container label {
+
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.top{
+  position: relative;
+  top:0;
+  left: 0;
+  padding: 15px;
+  width:100vw;
+  color: white;
+  background-color: rgb(23, 23, 84);
+  margin-bottom: 20px;
+}
+.top .nav{
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 15px;
+  margin-right: 8px ;
+}
+.nav:hover{
+  background-color: white;
+  color: rgb(23, 23, 84);
+  font-weight: bold;
+}
+/* Select and radio button styles */
+.delivery-container select{
+  width: 200px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+.delivery-container input[type="radio"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Submit button styles */
+.delivery-container button[type="submit"] {
+  background-color: rgb(23, 23, 84);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delivery-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button{
+  cursor: pointer;
+}
+
+.phone-auth{
+  position:absolute;
+  top:30%;
+  left:40%;
+}
+#whatsapp-checkbox{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.tbl td{
+  width: 150px;
+}
+.main-products {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80vw;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+width: 250px;
+height: 300px ;
+}
+
+.product-name {
+  margin-bottom: 8px;
+}
+
+
+.product-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-button,
+.cart-button {
+  padding: 3px 10px;
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.cart-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}
+
+.cart-button:hover {
+  background-color: #218838;
+}
+
+.rm-btn{
+  width: 120px;
+  height: 60px;
+  background-color: rgb(23, 23, 84);
+  color: white;
+}
